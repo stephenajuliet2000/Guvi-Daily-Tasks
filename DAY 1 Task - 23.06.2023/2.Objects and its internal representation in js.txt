@@ -1,0 +1,47 @@
+Objects And Its Internal Representation In JavaScript
+
+               Objects, in JavaScript, is it’s most important data-type and forms the building
+               blocks for modern JavaScript. These objects are quite different from JavaScript’s 
+               primitive data-types(Number, String, Boolean, null, undefined and symbol) 
+
+               objects in JavaScript may be defined as an unordered collection of related data,
+               of primitive or reference types, in the form of “key: value” pairs. These keys can be 
+               variables or functions and are called properties and methods, respectively, in the context of an object.  
+
+Objects and properties
+               A JavaScript object has properties associated with it. A property of an object can be explained as a 
+               variable that is attached to the object.
+
+               =>  objectName.propertyName
+
+               Like all JavaScript variables, both the object name (which could be a normal variable) and property 
+               name are case sensitive. You can define a property by assigning it a value. For example, let’s create
+               an object named myCar and give it properties named make, model, and year as follows:
+
+               => var myCar = new Object();
+                  myCar.make = 'Ford';
+                  myCar.model = 'Mustang';
+                  myCar.year = 1969;
+
+Creating Objects In JavaScript :
+
+                One of easiest way to create a javascript object is object literal, simply define the property and 
+                values inside curly braces as shown below   
+
+                => let bike = {name: 'hero honda', maker:'bajaj', engine:'937cc'};   
+
+Using the JavaScript Keyword new
+
+                The following example also creates a new JavaScript object with four properties:
+
+                Example
+
+                      var person = new Object();
+                      person.firstName = “Stephena”;
+                      person.lastName = “Juliet”;
+                      person.age = 23;
+                      person.eyeColor = “black”;
+
+
+
+
